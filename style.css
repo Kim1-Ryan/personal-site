@@ -1,0 +1,138 @@
+body{
+    background-image: url(./assets/images/crumpled\ paper\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#moth{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+#fingerprints-heart{
+    width: 3rem;
+    border-radius: 50%;   
+    display: flex;
+    position: relative;
+    left: 30%;
+}
+
+.text-center h1{
+  font-family: "Cantata One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-center button{
+    background-color: lightgray;
+    color: rgb(107, 103, 103);
+    border: 0.1rem solid rgb(118, 119, 121);
+}
+
+.text-center button:hover{
+    background-color: gray;
+    color: white;
+    border: 0.1rem solid rgb(118, 119, 121);
+}
+
+#carousel-btn{
+    background-color: rgb(160, 160, 160);
+    border: 0;
+}
+
+#carousel-link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#carousel-link button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.about-me-row{
+    display: flex;
+    margin: 0;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+}
+
+.about-me-row .btn-secondary{
+    background-color: rgb(141, 141, 143);
+    border: 0;
+}
+
+.about-me-row h2{
+  font-family: "Cantata One", serif;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    @media (max-width: 1000px){
+      .about-me-row{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+.about-me-img{
+    height: 10rem;
+    border: 0.25rem solid rgb(118, 119, 121);
+    border-radius: 50%;
+}
+
+#hanging-icons{
+    padding-bottom: 9rem;
+}
+
+#hanging-icons h2{
+  font-family: "Cantata One", serif;
+  font-weight: 380;
+  font-style: normal;
+}
+
+#bird{
+    width: 6rem;
+    border: 0.2rem solid rgb(118, 119, 121);
+    border-radius: 50%;
+}
+
+#hanging-icons h2,.sub-heading{
+    text-align: center;
+}
+
+#hanging-icons svg{
+    background-image: url(./assets/images/crumpled\ paper\ background.jpg);
+    border-radius: 50%;
+    color: rgb(143, 142, 142);
+}
+
+#hanging-icons svg#insta{
+    background-image: url(./assets/images/crumpled\ paper\ background.jpg);
+    border-radius: 35%;
+    color: rgb(143, 142, 142);
+}
+
+#social-media-row{
+    text-align: center;
+}
+
+#hanging-icons .btn-primary{
+    background-color: rgb(165, 165, 165);
+    border: 0;
+}
+
+#hanging-icons .btn-primary:hover{
+    background-color: rgb(122, 122, 122);
+    border: 0;
+}
